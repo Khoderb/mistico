@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #B7AEE5, #D9B1CD)
+}
+
+.footer .card {
+    background: #F8F1F6;
+    border: 0px;    
+}
