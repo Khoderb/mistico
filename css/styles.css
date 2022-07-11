@@ -8,6 +8,36 @@
     background: linear-gradient(to bottom, #B7AEE5, #D9B1CD)
 }
 
+/*.main1 img{
+    width: fit-content
+}*/
+
+.main img {
+    border-radius: 25px;
+}
+
+ .igcontainder a img {
+    width: 350px;
+    height: 350px;
+    margin: 2px;
+    padding: 2px;
+} 
+
+.footer{
+    background: #F8F1F6;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+}
+
 .footer .card {
     background: #F8F1F6;
     border: 0px;    
