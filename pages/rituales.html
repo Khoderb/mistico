@@ -16,39 +16,66 @@
 </head>
 
 <body>
-  <!-- Nabvar section -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" style="width:60px; height: auto;"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./rituales.html">RITUALES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./blog.html">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./acerca.html">SOBRE MÍSTICO</a>
-          </li>
-        </ul>
+  <!-- Nabvar section -->   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="" style="width:60px; height: auto;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./rituales.html">RITUALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+            </li>          
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca.html">SOBRE MÍSTICO</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>  
   <!-- End of Navbar section -->
 
   <br>
+
+  <!-- Main section -->
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>
+          Formá parte de la comunidad para recibir <b>nuestros rituales</b>
+        </h1>
+      </div>
+      <div class="col-md-6">
+        <form action="">
+          <div class="row">
+            <div class="col-md-12">
+              <input type="email" class="form-control" placeholder="Correo electrónico" aria-label="email">
+            </div>
+            &nbsp;
+            <div class="col-md-12">
+              <button class="btn" id="btnsuscribe" style="width: 100%;"><b>Suscribirme</b></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <img src="../assets/bannerrituales.svg" alt="" style="width:100%;">
+  </div>
 
   <!-- Footer section -->
   <footer id="footer" class="footer">
@@ -102,6 +129,9 @@
               <button type="submit" class="btn btn-dark mb-3"><i class="far fa-paper-plane"></i></button>
             </div>
           </form>
+        </div>
+        <div class="text-center navbar-dark bg-dark" style="width: 100%;">
+          <p class="text-light">&copy; 2022. <a href="#">Privacy</a> <a href="#">Todos los derechos reservados</a></p>
         </div>
   </footer>
   <!-- End of footer section -->

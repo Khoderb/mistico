@@ -8,20 +8,22 @@
     background: linear-gradient(to bottom, #B7AEE5, #D9B1CD)
 }
 
-/*.main1 img{
-    width: fit-content
-}*/
 
 .main img {
     border-radius: 25px;
 }
 
- .igcontainder a img {
+ .igcontainer a img {
     width: 350px;
     height: 350px;
     margin: 2px;
     padding: 2px;
 } 
+
+
+#btnsuscribe {
+    background: linear-gradient(to right, #FFDDF5, #B7AEE5)
+}
 
 .footer{
     background: #F8F1F6;
@@ -41,4 +43,15 @@
 .footer .card {
     background: #F8F1F6;
     border: 0px;    
+}
+
+:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.h:hover{
+    transform: scale(1.1) !important;
+    transition: transform 300ms ease-in-out !important;
+    cursor: pointer;
 }
