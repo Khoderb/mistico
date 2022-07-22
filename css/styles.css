@@ -20,6 +20,12 @@
     padding: 2px;
 } 
 
+@media screen and (max-width: 600px) {
+    #logo_main {
+        width: 100%;        
+    }
+}
+
 
 #btnsuscribe {
     background: linear-gradient(to right, #FFDDF5, #B7AEE5)
